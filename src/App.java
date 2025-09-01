@@ -7,6 +7,7 @@ public class App {
         Book book1 = new Book("Война и мир", author1, 1869);
         Book book2 = new Book("Преступление и наказание", author2, 1866);
         book1.setPublicationYear(1867);
+        System.out.println(author1.equals(author2));
 
         System.out.println(book1.toString());
         System.out.println(book2.toString());
